@@ -1505,6 +1505,11 @@
     shallow-equals "^1.0.0"
     speakingurl "^13.0.0"
 
+"@sanity/generate-help-url@^0.116.0":
+  version "0.116.0"
+  resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.116.0.tgz#58149c46c3b5b6e1b94ce777ce68dc6382c32e8a"
+  integrity sha512-C+f7B7n6ZSGoaGwih/wdIQONCYJcqLT8nnI4ZfJ/LiFDl86kLeVa57NFIRQfx0bDjJ7oT+Wc0SmcBv6RP3Nv9Q==
+
 "@sanity/generate-help-url@^2.18.0":
   version "2.18.0"
   resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-2.18.0.tgz#9130301579ff38b6bcc2ea0ce6105a7979272a66"
@@ -1787,6 +1792,21 @@
     "@sanity/types" "2.27.0"
     date-fns "^2.16.1"
     lodash "^4.17.15"
+
+"@sanity/vision@0.x":
+  version "0.147.9"
+  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-0.147.9.tgz#c513dc7498f358efb45db58aa453edbe4a952c8c"
+  integrity sha512-RXxKXAjDOdunyNROUAc/RQljfqN+zsbmxtdMRSzODHOBmtpqK8a2+zEa3TrD+rrNQqSq5DgpDc2fdDcN4By1ng==
+  dependencies:
+    classnames "^2.2.5"
+    codemirror "^5.47.0"
+    moment "^2.19.1"
+    query-string "^4.3.2"
+    react-codemirror2 "^6.0.0"
+    react-icon-base "^2.1.2"
+    react-json-view "^1.19.1"
+    react-spinner "^0.2.6"
+    react-split-pane "^0.1.84"
 
 "@sanity/vision@^2.27.2":
   version "2.27.2"
@@ -8420,7 +8440,7 @@ react-json-inspector@^7.1.1:
     object-assign "2.0.0"
     prop-types "^15.5.10"
 
-react-json-view@^1.21.3:
+react-json-view@^1.19.1, react-json-view@^1.21.3:
   version "1.21.3"
   resolved "https://registry.npmjs.org/react-json-view/-/react-json-view-1.21.3.tgz#f184209ee8f1bf374fb0c41b0813cff54549c475"
   integrity sha512-13p8IREj9/x/Ye4WI/JpjhoIwuzEgUAtgJZNBJckfzJt1qyh24BdTm6UQNGnyTq9dapQdrqvquZTo3dz1X6Cjw==
@@ -8977,6 +8997,14 @@ sanity-diff-patch@^1.0.9:
   integrity sha512-J5YeuM/S7rLTp51iqUunwzz7Rf68K/jCDGKtNCj6Wzcfgf9CH+0GtPlvf2DFsg0QQhYYZ72FOVn6skmoLjMCdw==
   dependencies:
     diff-match-patch "^1.0.5"
+
+sanity-plugin-vision@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.npmjs.org/sanity-plugin-vision/-/sanity-plugin-vision-2.0.7.tgz#52a712a9e425cce7635a9d136c0591503b19a45c"
+  integrity sha512-Iq8k8tJzULcwUvj5hBq/jG3rKb2MbsZfsICaQ3EoLPfQjwa7S7yLd6pYcXPbPykxkYQSxbZKpsrt9h4AwiBrQQ==
+  dependencies:
+    "@sanity/generate-help-url" "^0.116.0"
+    "@sanity/vision" "0.x"
 
 sax@~1.2.4:
   version "1.2.4"
