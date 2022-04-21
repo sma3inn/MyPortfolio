@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px); //blur the background on scroll
     -webkit-backdrop-filter: blur(4px); //for old browsers
@@ -51,22 +51,16 @@
 
         flex-direction: column;
 
-        div{  //dot when hovering on the navbar
-            width: 5px;
-            height: 5px;
-            background: transparent;
-            border-radius: 50%;
-
-            margin-bottom: 5px;
-        }
+        
 
         a{
-            color: var(--gray-color);
+            color: black;
             text-decoration: none;
             flex-direction: column;
 
             text-transform: uppercase;
-            font-weight: 500; //500 for bolder
+            font-weight: bold; //500 for bolder
+            padding-inline: 0.8rem;
 
             transition: all 0.2s ease-in-out;
 
@@ -181,3 +175,23 @@
         display: none;
     }
 }
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--secondary-color);
+
+    font-weight: 500;
+    color: var(--white-color);
+    outline: none;
+    font-family: var(--font-base);
+    display: flex;
+
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    cursor: pointer;
+
+    &:hover {
+      background-color: #2430af;
+    }
+  }

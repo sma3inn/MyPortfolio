@@ -20,12 +20,15 @@ const About = () => {
 
   return (
     <>
-      <h2 className='head-text'>
-      I am a 
-      <span> computer science</span> engineering student with an
-      <span> Artificial Intelligence</span> major at ESAIP.
-      <br/> Ambitious and serious, I seek to deepen my knowledge and my working methods to enrich myself professionally, but also personally.
-      </h2>
+      <div className='title-text'>
+        <h2 className='head-text'>
+        I am a 
+        <span> computer science</span> engineering student with an
+        <span> Artificial Intelligence</span> major at ESAIP.
+        <br/> Ambitious and serious, I seek to deepen my knowledge and my working methods to enrich myself professionally, but also personally.
+        </h2>
+      </div>
+      
 
       <div className='app__profiles'>
         {abouts.map((about, index) => (

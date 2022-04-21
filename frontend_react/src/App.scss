@@ -104,6 +104,10 @@
     flex-direction: column;
   
     padding: 1rem;
+
+    a{
+      padding: 15px 15px;
+    }
   
     div {
       width: 40px;
@@ -176,7 +180,7 @@
     }
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 900px) {
     .app__navigation,
     .app__social {
       display: none;
